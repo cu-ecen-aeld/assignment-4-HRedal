@@ -13,7 +13,7 @@ NUMLINES=0
 LINE=0
 STRINGSTR=STRING_TO_SEARCH
 DIRTOSEARCH=/tmp
-username=$(cat conf/username.txt)
+username=$(cat /etc/finder-app/conf/username.txt)
 
 if [ $# -lt 2 ]
 then
