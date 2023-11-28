@@ -54,7 +54,7 @@ fi
 #make clean
 #make
 pushd . 
-cd /home/root
+cd /root
 
 make clean
 make
